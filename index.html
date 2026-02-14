@@ -1,48 +1,31 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!doctype html>
+<html lang="ja">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-  </style>
+<meta charset="utf-8">
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+
+<style>
+body{
+margin:0;
+background:#000;
+}
+model-viewer{
+width:100vw;
+height:100vh;
+}
+</style>
+
 </head>
+
 <body>
-<p class="p1"><span class="s1">&lt;!doctype html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="ja"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;meta charset="utf-8"&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"&gt;&lt;/script&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;style&gt;</span></p>
-<p class="p1"><span class="s1">body{</span></p>
-<p class="p1"><span class="s1">margin:0;</span></p>
-<p class="p1"><span class="s1">background:#000;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p1"><span class="s1">model-viewer{</span></p>
-<p class="p1"><span class="s1">width:100vw;</span></p>
-<p class="p1"><span class="s1">height:100vh;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;model-viewer</span></p>
-<p class="p1"><span class="s1">src="./model.glb"</span></p>
-<p class="p1"><span class="s1">camera-controls</span></p>
-<p class="p1"><span class="s1">auto-rotate</span></p>
-<p class="p1"><span class="s1">ar</span></p>
-<p class="p1"><span class="s1">&gt;&lt;/model-viewer&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+
+<model-viewer
+src="./model.glb"
+camera-controls
+auto-rotate
+ar
+></model-viewer>
+
 </body>
 </html>
